@@ -1,0 +1,37 @@
+
+.section1 {
+  display: grid;
+  grid-template-columns: 30% 70%;  
+  align-items: center;  
+  padding: 20px;
+  height: 400px; 
+}
+
+.section1-header {
+  font-size: 2.5rem;
+  font-weight: bold;
+  color: #333;
+  margin: 0;  /
+}
+
+.section1-content {
+  text-align: left;  
+}
+
+.section1-paragraph {
+  font-size: 1.25rem;
+  margin-bottom: 20px;  
+}
+
+.section1-button {
+  font-size: 1.2rem;
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+.section1-button:hover {
+  background-color: #0056b3;
+}
