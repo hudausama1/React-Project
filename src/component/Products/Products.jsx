@@ -54,7 +54,7 @@ function Products() {
             />
             <Card.Body>
               <Card.Title>{prod.title}</Card.Title>
-              <Card.Text>{prod.overview}</Card.Text>
+              <Card.Text>The Rate : {prod.vote_average}</Card.Text>
               
               <Row className="d-flex align-items-center justify-content-between">
                 <Col>
